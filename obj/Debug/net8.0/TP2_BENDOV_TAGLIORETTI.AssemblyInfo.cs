@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TP2_BENDOV_TAGLIORETTI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7884312cbb552aead2dcc851bbb8c165bd1fbdc4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TP2_BENDOV_TAGLIORETTI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TP2_BENDOV_TAGLIORETTI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

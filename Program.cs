@@ -90,7 +90,7 @@ static void buscarPersona(List<Persona> listaPersonas)
         x = i;
     }
     edad = listaPersonas[x].ObtenerEdad();
-    if (listaPersonas[x].DNI != 0)
+    if (x != 0)
     {
         Console.WriteLine("Estadisticas de la persona:");
         Console.WriteLine("Nombre: " + listaPersonas[x].Nombre);
@@ -113,7 +113,7 @@ static void  modificarMail(List<Persona> listaPersonas)
         if (dniIngresado == listaPersonas[i].DNI)
         x = i;
     }
-    if (listaPersonas[x].DNI != 0 )
+    if (x != 0 )
     {
         Console.WriteLine("Ingrese el nuevo mail");
         listaPersonas[x].Email = Console.ReadLine();
